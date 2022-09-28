@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+  }
+  h1{
+    font-family: 'sans-serif;', sans, monospace;
+    color: black;
+  }
+  .posicoes{
+    width: 100px;
+    height: 100px;
+    background-color:#fff8dc ;
+    display: inline-block;
+  }
+  .o{
+    position: relative;
+  }
+  .o::after{
+    position: absolute;
+    content: "\26AB";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+  }
+  .x{
+    position: relative;
+  }
+  .x::after{
+    position: absolute;
+    font-size: 50px;
+    line-height: 100px;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+  content: "\26AA";
+  }
+  
