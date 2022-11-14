@@ -1,16 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 body{
     text-align: center;
     margin: 0px;
-    padding: 0px;
+    padding: 200px;
+    background-color: #fefae0;
   }
   h1{
-    font-family: 'sans-serif;', sans, monospace;
+    font-family: 'Indie Flower', cursive;
     color: black;
   }
   .posicoes{
     width: 100px;
     height: 100px;
-    background-color:#fff8dc ;
+    background-color:#606C38 ;
     display: inline-block;
   }
   .o{
